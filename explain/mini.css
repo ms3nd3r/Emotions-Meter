@@ -1,0 +1,53 @@
+.shortF{
+    margin: 15% 10%;
+}
+
+#letsGo{
+    margin: 15% 10% 2% 10%;
+}
+
+#letsGo a{
+    margin-top: 10%;
+    padding: 3%;
+    width:100%;
+    font-size: 200%;
+}
+
+.container{
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.box {
+    color: rgb(87, 87, 87);
+    text-align: center;
+    line-height: 100px;
+    margin: 5%;
+}
+
+.container p{
+    font-size: 300%;
+}
+
+
+#right{
+    text-align: right;
+}
+
+h2{
+    font-size: 230%;
+}
+
+/*アニメーション要素のスタイル*/
+.animation{
+	opacity : 0;
+	visibility: hidden;
+	transition: 1s;
+	transform: translateY(30px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.active{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
