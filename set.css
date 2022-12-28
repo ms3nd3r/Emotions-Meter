@@ -1,0 +1,235 @@
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(128, 128, 128);
+}
+.main{
+    margin: 50px 20px;
+    padding: 10px 50px 100px 50px;
+    background-color: rgb(255, 255, 255);    
+}
+div#goodDay{
+    margin: 50px 20px;
+    padding: 10px 50px 30px 50px;
+    background-color: rgb(255, 242, 231);    
+}
+div#sosoDay{
+    margin: 50px 20px;
+    padding: 10px 50px 30px 50px;
+    background-color: rgb(240, 255, 243);    
+}
+div#badDay{
+    margin: 50px 20px;
+    padding: 10px 50px 30px 50px;
+    background-color: rgb(224, 245, 255);    
+}
+p.prm{
+    padding: 10px;
+}
+p.prm input{
+    width: 90%;
+}
+p.souhyou{
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+p.souhyou input{
+    width: 94%;
+}
+#today{
+    font-size: x-large;
+}
+.Gmsg,.Smsg,.Bmsg{
+    font-size: 200%;
+}
+.Gmsg{
+    color: rgb(255, 94, 53);
+}
+.Smsg{
+    color: rgb(86, 138, 120);
+}
+.Bmsg{
+    color: rgb(8, 8, 185);
+}
+#sendBtn {
+    text-align: center;
+}
+#sendBtn input{
+    width: 100%;
+    padding: 7%;
+    font-size: 200%;
+}
+.top a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#explanation{
+    padding: 10%;
+    margin: 3%;
+}
+#explanation p{
+    font-size: 200%;
+    line-height: 300%;
+}
+.resultPageText{
+    font-size: 118%;
+    padding-top: 6%;
+    color: rgb(85, 85, 85);
+}
+
+#introduction{
+    text-align: center;
+}
+#intImg{
+    width: 90%;
+    height: 90%;
+}
+#startBtn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#startBtn a{
+    margin: 5%;
+    width: 40em;
+    height: 5em;
+    font-size: 150%;
+    line-height: 2.5em;
+}
+footer{
+    margin-top: 5%;
+    padding: 2% 3% 1%;
+    background-color: rgb(243, 243, 243);
+    font-size: 200%;
+    text-align: center;
+}
+footer div {
+    width: 220%;
+}
+
+.backBtn{
+    display: flex;            /* Flexboxを指定 */
+    justify-content: center;  /* 水平方向の中央寄せ */
+    align-items: center;      /* 垂直方向の中央寄せ */
+    background-color: rgb(255, 255, 255); 
+    margin-top: -5%;
+    padding: 5%;
+    font-size: larger;
+}
+
+#selectAttribute{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+#selectAttribute input{
+    margin:2%;
+}
+
+#textBox{
+    background-color: rgb(247, 247, 247);
+    font-size: 125%;
+}
+
+
+/* ここからlogin.php用 */
+#loginDisp{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#loginDisp div{
+    background-color: rgb(243, 243, 243);
+    flex:1;
+    margin: 3%;
+    padding: 2%;
+}
+/*regist.php用*/
+#registDisp {
+    background-color: rgb(243, 243, 243);
+    padding: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+#registDisp div{
+    margin-top:8%;
+}
+
+#construction{
+    background-color: rgb(122, 122, 122);
+    pointer-events: none;
+}
+
+/* スマホ用 */
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 300%;
+  }
+  h2{
+    font-size: 180%;
+  }
+
+  #explanation{
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #explanation p{
+    font-size: 150%;
+    line-height: 170%;
+    }
+    .main{
+        margin: 10% 5%;
+        padding: 10px 4% 15% ;
+        background-color: rgb(255, 255, 255);    
+    }
+    div#goodDay{
+        padding: 5% 4% 15% ;
+    }
+    div#sosoDay{
+        padding: 5% 4% 15% ;
+    }
+    div#badDay{
+        padding: 5% 4% 15% ;
+    }
+    #startBtn a{
+        margin: 5%;
+        width: 40em;
+        height: 5em;
+        font-size: 90%;
+        line-height: 2.5em;
+    }
+    footer div {
+        text-align: center;   
+        width: 100%; 
+        padding-bottom: 10%;
+    }
+    #sendBtn input{
+        width: 100%;
+        font-size: 200%;
+        text-align: center;
+        table-layout: fixed;
+        word-wrap: break-word;
+        padding: 10%;
+        line-height: 10px;
+    }
+    .Gmsg,.Smsg,.Bmsg{
+        line-height: 1;
+    }
+    textarea{
+        box-sizing:border-box;border:none;
+        width: 100%;
+    }
+} 
